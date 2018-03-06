@@ -19,14 +19,14 @@ we get the following response:
 
 <b>Step 3: 	Flattening</b>
 It Flattens the input without affecting the batch size.
-<p><i>Example
-model = Sequential()
-model.add(Conv2D(64, 3, 3,border_mode='same', input_shape=(3, 32, 32)))
-# now: model.output_shape == (None, 64, 32, 32)
+<pre><i>Example
+    model = Sequential()
+    model.add(Conv2D(64, 3, 3,border_mode='same', input_shape=(3, 32, 32)))
+    #now: model.output_shape == (None, 64, 32, 32)
 
-model.add(Flatten())
-# now: model.output_shape == (None, 65536)
-</i></b>
+    model.add(Flatten())
+    #now: model.output_shape == (None, 65536)
+</i></pre>
 
 <b>Step 4: 	Full connection</b>
 At the end of convolution and pooling layers, networks generally use fully-connected layers in which each pixel is
