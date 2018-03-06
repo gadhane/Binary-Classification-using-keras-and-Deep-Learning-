@@ -35,3 +35,46 @@ contain as many neurons as the number of classes to be predicted. For instance, 
 the last fully-connected layer will have 10 neurons.
 for more detailed explanation about the above four steps plase visit click <a href = "https://www.analyticsvidhya.com/blog/2016/04/deep-learning-computer-vision-introduction-convolution-neural-networks/">here</a>
 
+ <b>Structure of the Data set</b>
+ First you need to collect your training and test data, and structure as follows. 
+ 
+ <pre><i>
+      CNN_Image_Classifier
+      ||___ Dataset
+          |___ Training_Set
+            |___ Cats
+              |___ cats_01.jpg
+              |___ cats_02.jpg
+              |___ ……. 
+            |___ Dogs
+              |___ dogs_01.jpg
+              |___ dogs_02.jpg
+              |___ ……. 
+         |___ Test_Set
+            |___ Cats
+              |___ cats_01.jpg
+              |___ cats_02.jpg
+              |___ ……. 
+           |___ Dogs
+              |___ dogs_01.jpg
+              |___ dogs_02.jpg
+              |___ ……. 
+
+         |___ Predict
+            |___ cat_dog_01.jpg
+             |___ ………
+      ||___ train_CNN.py
+      ||___ predict.py
+      ||___ model.h5
+      ||___ weights.h5
+
+ </i></pre>
+
+<b>How to run the code?</b>
+<p>First download images of your own interest and put in the appropriate folder. Then, there are two ways to run.</p>
+<ol>
+  <li>Using the model and weights here: If you don’t want to spent more time to train your network, you can directly use the two .h5 files, and run predict to classify your image under predict. N.B. the model and weights given here are trained in 1500 cats and 1500 dogs of images and are validated with 1000 images of both cat and dog each with 500 images. The network has been trained with 5 epochs.</li>
+  <li>
+   If you want to build your own model, and train the network with your own images, then delete the two .h5 files and run the train_CNN.py file.  After it finishes the training two .h5 files will be created and finally run your predict.py code to make the prediction. 
+  </li>
+  <b>CNN for Multiclass classifier coming Soon </b>
