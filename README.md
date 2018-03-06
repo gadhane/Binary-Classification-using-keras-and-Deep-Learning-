@@ -1,4 +1,5 @@
 # Binary-Classification-using-keras-and-Deep-Learning-
+<pre>
 <p>
 Keras is a Python library for deep learning that wraps the efficient numerical libraries TensorFlow and Theano. It allows you to quickly design and train neural network and deep learning models. Here we will build a convolutional neural network to identify images of dogs and cats. First the network will be trained on thousands of images, and it will be able to predict if a given test image is a cat or a dog.
   </p>
@@ -21,3 +22,5 @@ model.add(Flatten())
 <b>Step 4: 	Full connection</b>
 At the end of convolution and pooling layers, networks generally use fully-connected layers in which each pixel is considered as a separate neuron just like a regular neural network. The last fully-connected layer will contain as many neurons as the number of classes to be predicted. For instance, if we have 10 classes, the last fully-connected layer will have 10 neurons.
 for more detailed explanation about the above four steps plase visit click <a href = "https://www.analyticsvidhya.com/blog/2016/04/deep-learning-computer-vision-introduction-convolution-neural-networks/">here</a>
+
+</pre>
