@@ -38,7 +38,7 @@ for more detailed explanation about the above four steps plase visit click <a hr
  <b>Structure of the Data set</b>
  First you need to collect your training and test data, and structure as follows. 
  
- <pre><i>
+ <pre>
       CNN_Image_Classifier
       ||___ Dataset
           |___ Training_Set
@@ -68,7 +68,7 @@ for more detailed explanation about the above four steps plase visit click <a hr
       ||___ model.h5
       ||___ weights.h5
 
- </i></pre>
+ </pre>
 
 <b>How to run the code?</b>
 <p>First download images of your own interest and put in the appropriate folder. Then, there are two ways to run.</p>
