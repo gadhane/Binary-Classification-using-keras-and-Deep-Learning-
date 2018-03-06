@@ -10,7 +10,8 @@ image is a cat or a dog.
 The process of building a Convolutional Neural Network always involves four major steps. 
 <b>Step 1: 	Convolution</b>
 Convolution is a weighted sum between two signals (in terms of signal processing jargon) or functions (in terms of mathematics). 
-(pic)
+
+<img src = "https://github.com/gereziherw/Binary-Classification-using-keras-and-Deep-Learning-/blob/master/images/convolution-example-matrix.gif?raw=true />
 
 <b>Step 2: 	Pooling </b>
 pooling layers are used to reduce the size of image. It works by sampling in each layer using filters. 
