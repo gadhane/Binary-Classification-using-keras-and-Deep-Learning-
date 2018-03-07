@@ -7,7 +7,7 @@ images of dogs and cats. First the network will be trained on thousands of image
   </p>
  <figure>
 <img src="https://github.com/gereziherw/Binary-Classification-using-keras-and-Deep-Learning-/blob/master/images/Binary_Classifier.gif?raw=true">
-  <figcaption>Fig1. Simple Binary CNN. </figcaption>
+  <figcaption>Fig1. Simple Binary CNN.</figcaption>
   </figure>
 The process of building a Convolutional Neural Network always involves four major steps. 
 
