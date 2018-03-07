@@ -14,7 +14,7 @@ The process of building a Convolutional Neural Network always involves four majo
 <b>Step 1: 	Convolution</b>
 Convolution is a weighted sum between two signals (in terms of signal processing jargon) or functions (in terms of mathematics). 
 <figure>
-<img src="https://github.com/gereziherw/Binary-Classification-using-keras-and-Deep-Learning-/blob/master/images/convolution-example-matrix.gif?raw=true">
+<img src="https://github.com/gereziherw/Binary-Classification-using-keras-and-Deep-Learning-/blob/master/images/convolution-example-matrix.gif?raw=true" width ="200" width="250">
   <figcaption>Fig2. Convolution</figcaption>
 </figure>
 <b>Step 2: 	Pooling </b>
